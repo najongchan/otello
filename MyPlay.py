@@ -80,7 +80,7 @@ def alphabeta(board, alpha, beta, depth, color, player):
 def nextMove(board, color, time):
     limit_depth = 4
     max_value = -999999
-    min_value = 999999
+    min_value = 99999
     valid_count = 0
     for i in range(8):
         for j in range(8):
